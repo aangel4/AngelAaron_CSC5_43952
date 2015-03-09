@@ -11,6 +11,8 @@
 using namespace std;
 
 //User Libraries
+//Global Constants
+//Function Prototypes
 //Ocean Levels
 
 

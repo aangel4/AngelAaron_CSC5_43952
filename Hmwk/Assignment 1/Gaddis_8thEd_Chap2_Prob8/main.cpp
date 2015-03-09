@@ -11,6 +11,8 @@
 using namespace std;
 
     //User Libraries
+    //Global Constants
+    unsigned char CNVPCT=100;
     //Total Purchase
 int main(int argc, char** argv) {
     
@@ -18,7 +20,7 @@ int main(int argc, char** argv) {
 float Pitem_1, Pitem_2, Pitem_3, Pitem_4, Pitem_5,SaleTax;
 float SbTotal; // Subtotal of Sale
 float Total; //Grand Total
-float TsleTax; //Total Sales Tax
+unsigned short TsleTax; //Total Sales Tax
 
 //Assigned Values
 Pitem_1 = 15.95; //Price of Item 1
@@ -26,11 +28,11 @@ Pitem_2 = 24.99; //Price of Item 2
 Pitem_3 = 6.95;  //Price of Item 3
 Pitem_4 = 12.95; //Price of Item 4
 Pitem_5 = 3.95;  //Price of Item 5
-SaleTax = .07;   //Sales Tax
+SaleTax = 7;   //Sales Tax
 
 //Calculate
 SbTotal = Pitem_1+Pitem_2+Pitem_3+Pitem_4+Pitem_5;
-TsleTax = SbTotal * SaleTax;
+TsleTax = SbTotal * (SaleTax/CNVPCT);
 Total = SbTotal + TsleTax;
 
 //Output Everything
