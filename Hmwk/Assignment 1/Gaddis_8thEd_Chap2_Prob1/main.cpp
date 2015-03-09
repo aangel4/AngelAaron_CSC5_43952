@@ -17,7 +17,7 @@ using namespace std;
 //execution begins here!
 
 int main() {
-    
+    //Declare Variables
     short apples,
           grnAppl = 50,  //50 green apples 
           redAppl = 100, //100 red apples

@@ -12,6 +12,8 @@ using namespace std;
 
 //User Libraries
 
+//Global Constants
+unsigned char CNVPCT=100;
 //Sales Prediction
 
 //Execution Begins here!
@@ -24,10 +26,10 @@ float sales;
 
 //Assigned Values
 TYsales=8.6E6; //total sales this Year
-sales=.58; //Percentage in sales
+sales=58; //Percentage in sales
 
 //Calculate
-TgSales = sales * TYsales;
+TgSales = TYsales*(sales/CNVPCT);
         
 //Output Everything
 cout<<"Sales Prediction Problem"<<endl;
