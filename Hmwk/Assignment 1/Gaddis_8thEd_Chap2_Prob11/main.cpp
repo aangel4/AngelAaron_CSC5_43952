@@ -11,6 +11,8 @@
 using namespace std;
 
 //User Libraries
+//Global Constants
+//Function Prototypes
 //Distance Per Tank of Gas
 
 int main(int argc, char** argv) {

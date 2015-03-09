@@ -11,6 +11,8 @@
 using namespace std;
 
 // user Libraries
+//Global Constants
+//Function Prototypes
 // Miles Per Gallon
 // Execution Begins here!
 

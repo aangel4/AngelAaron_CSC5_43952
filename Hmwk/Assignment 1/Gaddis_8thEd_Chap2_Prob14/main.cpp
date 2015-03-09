@@ -11,6 +11,8 @@
 using namespace std;
 
 //User Libraries
+//Global Constants
+//Function Prototypes
 //Personal Information
 
 int main(int argc, char** argv) {
@@ -22,7 +24,7 @@ int main(int argc, char** argv) {
     cout<<"5966 Dogwood St"<<endl;
     cout<<"San Bernardino CA 92404"<<endl;
     cout<<"909-202-3479"<<endl;
-    cout<<"Major in Conputer Science"<<endl;
+    cout<<"Major in Computer Science"<<endl;
     
     return 0;
 }

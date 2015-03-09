@@ -14,6 +14,7 @@ using namespace std;
 
 //Global Constants
 unsigned char CNVPCT=100;
+//Function Prototypes
 //Sales Prediction
 
 //Execution Begins here!
