@@ -8,14 +8,19 @@
 
 #include <iostream>
 
+
 using namespace std;
 
 //User Libraries
 //Global Constants
-unsigned short CNVPCT=100;
 //Function Prototypes
 
 int main(int argc, char** argv) {
+    
+    //set floating point output
+    cout.setf(ios::fixed);
+    cout.setf(ios::showpoint);
+    cout.precision(2);
     
     //Declare variables
     float MealChg,TaxRte,Tip;
@@ -29,8 +34,8 @@ int main(int argc, char** argv) {
     Tip=20; //tip rate
     
     //Calculate
-    TaxAmt=(MealChg/CNVPCT)*TaxRte;
-    TipAmt=(MealChg/CNVPCT)*Tip+TaxAmt;
+    TaxAmt=(MealChg/100)*TaxRte;
+    TipAmt=(MealChg/100)*Tip+TaxAmt;
     TotalBl=MealChg+TaxAmt+TipAmt;
     
     //Output Everything

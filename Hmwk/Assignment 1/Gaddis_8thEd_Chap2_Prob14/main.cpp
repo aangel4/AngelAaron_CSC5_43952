@@ -19,13 +19,9 @@ int main(int argc, char** argv) {
  
     
     //output Personal Information
-    cout<<"Personal Information Problem"<<endl;
-    cout<<"Aaron Angel"<<endl;
-    cout<<"5966 Dogwood St"<<endl;
-    cout<<"San Bernardino CA 92404"<<endl;
-    cout<<"909-202-3479"<<endl;
-    cout<<"Major in Computer Science"<<endl;
-    
+    cout<<"Personal Information Problem\nAaron Angel\n5966 Dogwood St\nSan Bernardino CA 92404\n909-202-3479\nMajor in Computer Science\n";
+ 
+  
     return 0;
 }
 
