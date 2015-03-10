@@ -12,9 +12,13 @@ using namespace std;
 
     //User Libraries
     //Global Constants
-    unsigned char CNVPCT=100;
     //Total Purchase
 int main(int argc, char** argv) {
+    
+    //set floating point output
+    cout.setf(ios::fixed);
+    cout.setf(ios::showpoint);
+    cout.precision(2);
     
      //Declare Variables
 float Pitem_1, Pitem_2, Pitem_3, Pitem_4, Pitem_5,SaleTax;
@@ -32,7 +36,7 @@ SaleTax = 7;   //Sales Tax
 
 //Calculate
 SbTotal = Pitem_1+Pitem_2+Pitem_3+Pitem_4+Pitem_5;
-TsleTax = SbTotal * (SaleTax/CNVPCT);
+TsleTax = SbTotal * (SaleTax/100);
 Total = SbTotal + TsleTax;
 
 //Output Everything

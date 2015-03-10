@@ -13,11 +13,15 @@ using namespace std;
 //User Libraries
 
 //Global Constants
-unsigned char CNVPCT=100;
 //Function Prototypes
 //Sales Tax
 
 int main(int argc, char** argv) {
+    
+    //set floating point output
+    cout.setf(ios::fixed);
+    cout.setf(ios::showpoint);
+    cout.precision(2);
     
     //Declare Variables
  float Pprice,TsaleP,TSST,TCST,
@@ -29,9 +33,9 @@ SST=4; //State Sales Tax
 CST=2; //County Sales Tax
 
 //Calculate
-TSST = (SST/CNVPCT) * Pprice;
-TCST = (CST/CNVPCT) * Pprice;
-TsaleP = TCST + TSST;
+TSST = (SST/100) * Pprice;//Total State Sale Tax
+TCST = (CST/100) * Pprice;//Total County Sale Tax
+TsaleP = TCST + TSST;//Total sale tax
 
 //Output Everything
 cout<<"Sales Tax Problem"<<endl;
