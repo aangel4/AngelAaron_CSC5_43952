@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
     cin>>payRate;
     //Calculate the paycheck
     payChk=hrsWkd<oTime?
-                payRate=*hrsWkd:
+                payRate=*hrsWkd;
                 payRate*(hrsWkd+(oRate-1)*(hrsWkd-oTime));
     //output the results to the screen
     cout<<fixed<<setprecision(2)<<showpoint;
