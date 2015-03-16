@@ -28,6 +28,7 @@ int main(int argc, char** argv) {
  //Calculate variable
     MPG = Miles/GalTank;
  //Output Results
+    cout<< setprecision(2)<<fixed;
     cout<<"Total Miles Per Gallons is "<<MPG<<endl;
     
 
