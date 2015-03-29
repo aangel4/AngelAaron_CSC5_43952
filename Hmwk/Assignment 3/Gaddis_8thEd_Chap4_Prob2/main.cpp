@@ -26,6 +26,7 @@ int main(int argc, char** argv) {
     //Prompt the user for inputs
     cout<<"Input a number from 1-10 to convert to Roman Numeral "<<endl;
     cin>>number;
+    //switch statement
     switch (number)
     {
         case 1: cout<<" I "<<endl;
