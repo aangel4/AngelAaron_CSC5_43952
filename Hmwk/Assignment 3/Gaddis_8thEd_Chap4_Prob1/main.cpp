@@ -29,12 +29,12 @@ int main(int argc, char** argv) {
  cout<<"Input the second Number "<<endl;
  cin>>Numb2;
  if (Numb1<Numb2)
-     cout<<Numb1<<" is less than number 2 "<<Numb2<<endl;
+     cout<<Numb1<<" is less than "<<Numb2<<endl;
  else if (Numb1>Numb2)
      cout<<Numb1<<" is greater than "<<Numb2<<endl;
- else if (Numb1==Numb2)
+ else
      cout<<Numb1<<" is equal to "<<Numb2<<endl;
-
+ 
     return 0;
 }
 

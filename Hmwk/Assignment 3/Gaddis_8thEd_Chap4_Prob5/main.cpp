@@ -29,17 +29,12 @@ float BMI,weight,height;//BMI=body mass index
     BMI=(weight*703)/(height*height);
     //if statement
     if (BMI<=25&&BMI>=18.5)
-    {
         cout<<"You have optimal weight "<<endl;
-    }
     else if (BMI<18.5)
-    {
         cout<<"You are underweight "<<endl;
-    }
     else if (BMI>25)
-    {
         cout<<"You are overweight "<<endl;
-    }
+    
     return 0;
 }
 

@@ -37,17 +37,12 @@ area1=length1*width1;
 area2=length2*width2;
 //if else statement
 if (area1>area2)
-{
     cout<<"rectangle 1 is greater than rectangle 2 "<<endl;
-}
 else if (area1<area2)
-{
     cout<<"Rectangle 1 is less than rectangle 2 "<<endl;
-}
 else
-{
     cout<<"Rectangle 1 is equal to rectangle 2 "<<endl;
-}
+
     return 0;
 }
 

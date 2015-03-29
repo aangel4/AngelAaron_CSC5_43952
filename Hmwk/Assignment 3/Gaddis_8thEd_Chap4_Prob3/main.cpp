@@ -29,13 +29,10 @@ int main(int argc, char** argv) {
     cin>>year;
     //if else statement
     if (month*day==year)
-    {
         cout<<"The date is magic"<<endl;
-    }
     else 
-    {
         cout<<"The date is not magic"<<endl;
-    }
+    
     return 0;
 }
 
