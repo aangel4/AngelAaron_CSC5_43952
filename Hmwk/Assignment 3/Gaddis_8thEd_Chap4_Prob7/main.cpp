@@ -14,9 +14,9 @@ using namespace std;
 //User Libraries
 
 //Global Constants
-unsigned char Min=60;
-unsigned short Hr=3600;
-unsigned int Day=86400;
+unsigned char Min=60;//60 seconds in 1 minutes
+unsigned short Hr=3600;//3600 seconds in 1 hour
+unsigned int Day=86400;//86400 seconds in 1 day
 //Function Prototypes
 
 //Execution Begins Here!!
@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     //Declare Variables
     float sec,min,hr,day;//Seconds,minutes,hours,days
     //Prompt the user for inputs
-    cout<<"Input a number of seconds"<<endl;
+    cout<<"Input a number of seconds greater than or equal to 60 seconds"<<endl;
     cin>>sec;
     //calculations
     min=sec/Min,hr=sec/Hr,day=sec/static_cast<float>(Day);

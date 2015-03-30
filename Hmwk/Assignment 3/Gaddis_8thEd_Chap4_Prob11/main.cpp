@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Aaron Angel
  * Created on March 29, 2015, 8:04 PM
- *      //Purpose: Days in Month Problem
+ *      //Purpose: Math Tutor Problem
  */
 //System Libraries
 #include <iostream>
