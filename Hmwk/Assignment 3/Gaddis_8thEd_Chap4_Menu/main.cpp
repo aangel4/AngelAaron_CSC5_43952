@@ -4,9 +4,16 @@
  * Created on March 30, 2015, 11:32 AM
  * Purpose: To Illustrate the code for 
  * developing a menu
- * Problem 1 -> Sum the numbers between 1 and 10
- * Problem 2 -> Multiply the numbers between 1 and 10
- * Problem 3 -> Divide the numbers between 1 and 10
+ * Problem 0 -> Minimum/Maximum numbers
+ * Problem 1 -> Roman Numeral Converter
+ * Problem 2 -> Magic Dates
+ * Problem 3 -> Areas of Two Rectangles
+ * Problem 4 -> Calculating Body Mass Index
+ * Problem 5 -> Mass and Weight in Newtons
+ * Problem 6 -> Time Calculator 
+ * Problem 7 -> Change for a Dollar Game
+ * Problem 8 -> Math Tutor
+ * Problem 9 -> Software Sales
  */
 
 //User Libraries
