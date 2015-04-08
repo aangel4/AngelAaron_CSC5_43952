@@ -39,9 +39,6 @@ int main(int argc, char** argv) {
             cout<<"Error Please input a number greater than or equal to 1"<<endl;
             cin>>iTime;
         }
-    //Calculations
-    
-    
     //Header Table
     cout<<"Hour     Distance Traveled "<<endl;
     cout<<"--------------------------"<<endl;
