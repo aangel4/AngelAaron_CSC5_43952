@@ -22,6 +22,8 @@ int main(int argc, char** argv) {
     float cal=3.6;//Calories burned per min
     const char StrtMin=5;//Starting minutes
     const unsigned char EndMin=30;//Ending minutes
+    cout<<"Table chart shows minutes worked "
+            "out and calculates calories burned"<<endl;
     unsigned short min;//Minutes
 //Table header
     cout<<"Minutes Calories Burned "<<endl;
