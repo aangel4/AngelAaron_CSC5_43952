@@ -27,8 +27,11 @@ int InNumb;
         cin >> InNumb;
 //while loop
 while(InNumb<0)
-    cout<<InNumb<<"Error, please input a number greater than 0"<<endl;
-//For loop
+{
+    cout<<"Error, please input a number greater than 0"<<endl;
+    cin>>InNumb;
+}
+    //For loop
 for (int counter=0; counter<=InNumb;counter++)
 {	
         sum=sum+InNumb;
