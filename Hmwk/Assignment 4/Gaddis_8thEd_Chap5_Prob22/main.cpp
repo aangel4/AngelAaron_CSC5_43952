@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
     for(x=1;x<=15;x++)
     {
            cout<<"x"<<endl;
-           num+=x++;
+           
            
     }
     return 0;
