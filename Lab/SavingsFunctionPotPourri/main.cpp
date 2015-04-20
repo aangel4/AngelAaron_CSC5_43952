@@ -63,13 +63,13 @@ int main(int argc, char** argv) {
 //outputs
 //      fv-> Future Values
 float save1(float p,float i,int n){
-    cout<<"save1 with integer n"<<endl;
+    cout<<"save 1 with integer n"<<endl;
 
     return p*pow((1+i),n);
 }
     
 float save1(float p,float i,float n){
-    cout<<"save1 with integer n"<<endl;
+    cout<<"save 1 with integer n"<<endl;
 
     return p*pow((1+i),n);
 }
