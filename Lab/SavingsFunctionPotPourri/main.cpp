@@ -21,8 +21,8 @@ float save2(float,float,int);//exp and log function
 float save3(float,float,int);//for-loop
 float save4(float,float,int);//Recursive -> Calling itself
 float save5(float=100.0f,float=0.08f,int=9);//Default parameter
-void float save6(float &,float,float,int);//pass by reference
-void float save7(float &,float,int);//pass by reference
+void save6(float &,float,float,int);//pass by reference
+void save7(float &,float,int);//pass by reference
 float save1(float,float,float);//over ridden function / same name
 //Execution Begins Here!!
 int main(int argc, char** argv) {
@@ -68,6 +68,11 @@ float save1(float p,float i,int n){
     return p*pow((1+i),n);
 }
     
+float save1(float p,float i,float n){
+    cout<<"save1 with integer n"<<endl;
+
+    return p*pow((1+i),n);
+}
     float save2(float p,float i,int n){
     return p*exp(n*log(1+i));
     
