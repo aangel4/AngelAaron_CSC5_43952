@@ -37,19 +37,19 @@ int main(int argc, char** argv) {
     switch (package) {
         case 'A':
         case 'a':{
-            bill=9.95;
-            if (vwdHrs>10)bill+=(vwdHrs-10);
+            bill=19.95;
+            if (vwdHrs>5)bill+=(vwdHrs-5);
             break;
         }
         case 'B':
         case 'b':{
-            bill=14.95;
-            if (vwdHrs>20)bill+=(vwdHrs-20);
+            bill=24.95;
+            if (vwdHrs>15)bill+=(vwdHrs-15);
             break;
         }
         case 'C':
         case 'c':{
-            bill=19.95;
+            bill=29.75;
             break;
         }
         default: cout<<"Wrong Package Chosen"<<endl;
@@ -57,11 +57,7 @@ int main(int argc, char** argv) {
     //Output the results to the file
     out<<fixed<<setprecision (2)<<showpoint;
     out<<"your cable bill from CSC5 RCC Programming class"<<endl;
-    out<<"Customer Name:" <<name<<endl;
-    out<<"Package:"<<package<<endl;
-    out<<"Hours Viewed: " <<vwdHrs<<endl;
-    out<<"Amount Owed: "<<bill<<endl;
-    out.close();
+    out<<"Customer Name:"
     return 0;
 }
 
